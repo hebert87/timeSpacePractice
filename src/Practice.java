@@ -24,7 +24,7 @@ public class Practice {
   // Time Complexity: O(n)
   // Space Complexity: O(1)
   // Remember to define your variables!
-  // n= len of matrix
+  // n = number of rows
   public static int sumDiagonal(int[][] matrix) {
     int sum = 0;
     for (int i = 0; i < matrix.length; i++) {
@@ -34,9 +34,10 @@ public class Practice {
   }
   
 
-  // Time Complexity: 
-  // Space Complexity: 
+  // Time Complexity: O(n)
+  // Space Complexity: O(n)
   // Remember to define your variables!
+  // n = array length 
   public static <T> Map<T, Integer> countFrequencies(T[] array) {
     Map<T, Integer> frequencies = new HashMap<>();
     for (T val : array) {
