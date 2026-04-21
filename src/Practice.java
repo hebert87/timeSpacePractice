@@ -21,7 +21,10 @@ public class Practice {
   }
 
   // Assume a rectangular array where #rows <= #cols
+  // Time Complexity: O(n)
+  // Space Complexity: O(1)
   // Remember to define your variables!
+  // n= len of matrix
   public static int sumDiagonal(int[][] matrix) {
     int sum = 0;
     for (int i = 0; i < matrix.length; i++) {
