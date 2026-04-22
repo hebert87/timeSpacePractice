@@ -91,9 +91,9 @@ public class Practice {
 
   // Assume all strings in strs are of length s
   // Hint: charAt is an O(1) operation in both time and space
-  // Time Complexity:
-  // Space Complexity:
-  // Remember to define your variables!
+  // Time Complexity: O(n*m)
+  // Space Complexity: O(n*m) 
+  // Remember to define your variables! n = strs.length m = str.legnth()
   public static List<Character> concatStrings(List<String> strs) {
     List<Character> concat = new ArrayList<>();
     for(String str : strs) {
