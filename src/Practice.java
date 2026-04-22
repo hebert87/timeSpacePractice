@@ -57,9 +57,9 @@ public class Practice {
     return evens;
   }
 
-  // Time Complexity:
-  // Space Complexity:
-  // Remember to define your variables!
+  // Time Complexity:O(n)
+  // Space Complexity:O(n^2)
+  // Remember to define your variables! n = map length
   public static List<Integer> concatVals(Map<Integer, List<Integer>> map) {
     List<Integer> result = new ArrayList<>();
 
